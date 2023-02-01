@@ -1,0 +1,1057 @@
+                                html {
+                                box-sizing: border-box;
+                    
+                            }
+                            
+                            *,
+                            *::after,
+                            *::before {
+                                box-sizing: inherit;
+                            }
+                            
+                            ul[class],
+                            ol[class] {
+                                padding: 0;
+                            }
+                            
+                            body,
+                            h1,
+                            h2,
+                            h3,
+                            h4,
+                            h5,
+                            h6,
+                            p,
+                            ul[class],
+                            ol[class],
+                            li,
+                            figure,
+                            figcaption,
+                            blockquote,
+                            dl,
+                            dd {
+                                margin: 0;
+                            }
+                            
+                            ul[class] {
+                                list-style: none;
+                            }
+                            
+                            img {
+                                max-width: 100%;
+                                display: block;
+                            }
+                            
+                            input,
+                            button,
+                            textarea,
+                            select {
+                                font: inherit;
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                            }
+                            /* font-family: 'Raleway', sans-serif; */
+                            
+                            body {
+                                min-height: 100vh;
+                                font-weight: 300;
+                                font-style: normal;
+                                font-size: 14px;
+                                line-height: 18px;
+                                letter-spacing: 0.6px;
+                                color: #242121;
+                                font-family: 'Roboto Condensed', sans-serif;
+                            }
+                            
+                            .container {
+                                max-width: 1220px;
+                                padding: 0 10px;
+                                margin: 0 auto;
+                            }
+                            
+                            .header__top-inner {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: flex-end;
+                            }
+                            
+                            .logo {
+                                width: 60px;
+                                height: 63px;
+                                left: 360px;
+                                top: 35px;
+                            }
+                            
+                            .menu__btn {
+                                display: none;
+                            }
+                            
+                            .menu__list {
+                                display: flex;
+                            }
+                            
+                            .menu__list-item+.menu__list-item {
+                                margin-left: 45px;
+                            }
+                            
+                            .header {
+                                background-image: url('../images/bg.png');
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                background-size: cover;
+                                min-height: 100vh
+                            }
+                            
+                            .menu__list-link {
+                                padding: 0 0 5px;
+                                font-size: 24px;
+                                line-height: 28px;
+                                text-transform: capitalize;
+                                color: #fff;
+                                font-weight: normal;
+                                letter-spacing: 0.6px;
+                                transition: all .5s;
+                            }
+                            
+                            .menu__list-link:hover {
+                                border-bottom: 1px solid #00B2A0;
+                            }
+                            
+                            .header__content {
+                                letter-spacing: 0.6px;
+                                min-height: 100vh
+                            }
+                            
+                            .header__items {
+                                min-height: 100vh;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
+                            
+                            .title__header {
+                                font-family: 'Raleway', sans-serif;
+                                font-weight: bold;
+                                font-size: 200px;
+                                line-height: 222px;
+                                color: #0D302C;
+                                margin-top: auto;
+                            }
+                            
+                            .sub__title {
+                                font-weight: normal;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #000000;
+                                margin-bottom: auto;
+                            }
+                            
+                            .header__icon {
+                                margin-bottom: 92px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
+                            
+                            .school {
+                                padding: 190px 0;
+                            }
+                            
+                            .title__head {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            
+                            .title {
+                                font-family: 'Raleway', sans-serif;
+                                font-weight: 600;
+                                font-size: 48px;
+                                line-height: 56px;
+                                letter-spacing: 0.6px;
+                                color: #01353E;
+                                text-align: center;
+                                position: relative;
+                                padding: 0 45px;
+                            }
+                            
+                            .title::after {
+                                position: absolute;
+                                content: url(../images/line.svg);
+                                transform: rotate(180deg);
+                                padding-bottom: 20px;
+                            }
+                            
+                            .title_one {
+                                padding-bottom: 105px;
+                            }
+                            
+                            .line {
+                                display: flex;
+                                float: right;
+                                padding-top: 18px;
+                            }
+                            
+                            .text {
+                                display: flex;
+                                align-items: flex-end;
+                                column-count: 4;
+                                column-gap: 30px;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 14px;
+                                line-height: 18px;
+                                letter-spacing: 0.6px;
+                            }
+                            
+                            .text__one {
+                                padding-right: 120px;
+                            }
+                            
+                            .text p {
+                                min-height: 15vh;
+                            }
+                            
+                            .in__school {
+                                padding: 200px 0 194px;
+                                background-color: #f8f8f8;
+                            }
+                            
+                            .title__two {
+                                padding-bottom: 100px;
+                            }
+                            
+                            .get__items {
+                                display: flex;
+                                margin-bottom: 102px;
+                                justify-content: space-between;
+                                position: relative;
+                            }
+                            
+                            .get__item {
+                                width: 350px;
+                                position: relative;
+                            }
+                            
+                            .get__item-title {
+                                font-size: 24px;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                margin-bottom: 20px;
+                                height: 56px;
+                                text-align: center;
+                                line-height: 28px;
+                            }
+                            
+                            .get__item-title--sun {
+                                line-height: 18px;
+                            }
+                            
+                            .get__item::before {
+                                content: '';
+                                position: absolute;
+                                left: 40px;
+                                top: 0;
+                                width: 50px;
+                                height: 50px;
+                            }
+                            
+                            .get__item--sun::before {
+                                content: url(../images/sun.svg);
+                            }
+                            
+                            .get__item--fly::before {
+                                content: url(../images/fly.svg);
+                            }
+                            
+                            .get__item--group::before {
+                                content: url(../images/Group.svg);
+                            }
+                            
+                            .get__inner {
+                                display: flex;
+                                margin-top: 103px;
+                            }
+                            
+                            .get__info {
+                                width: 340px;
+                                margin-right: 260px;
+                                flex: none;
+                                position: relative;
+                            }
+                            
+                            .get__text p {
+                                margin-bottom: 30px;
+                            }
+                            
+                            .get__info-item {
+                                position: relative;
+                            }
+                            
+                            .get__info-item span {
+                                display: block;
+                                position: absolute;
+                                right: -10px;
+                                top: -3px;
+                                font-size: 24px;
+                                letter-spacing: 0.6px;
+                            }
+                            
+                            .get__info-item img {
+                                width: 85%;
+                                margin-top: 10px;
+                            }
+                            
+                            .sky__inner {
+                                padding: 200px 0 317px;
+                                margin-right: auto;
+                            }
+                            
+                            .title__sky {
+                                padding-bottom: 100px;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                                max-width: 558px;
+                                display: inline-block;
+                            }
+                            
+                            .text__sky {
+                                max-width: 507px;
+                            }
+                            
+                            .text__sky p {
+                                margin-bottom: 30px;
+                            }
+                            
+                            .sky {
+                                background-image: url(../images/surf.jpg);
+                                background-repeat: no-repeat;
+                                background-size: 50%;
+                                background-position: right 30%;
+                            }
+                            
+                            .gellery {
+                                padding-bottom: 198px;
+                            }
+                            
+                            .gellery__title {
+                                margin-bottom: 212px;
+                            }
+                            
+                            .menu__gellery {
+                                margin-bottom: 10px;
+                                margin-right: -20px;
+                            }
+                            
+                            .button__gellery {
+                                background-color: transparent;
+                                border: none;
+                                font-size: 24px;
+                                line-height: 18px;
+                                letter-spacing: 0.6px;
+                                margin-right: 20px;
+                            }
+                            
+                            .gellery__images {
+                                min-height: 600px;
+                                display: flex;
+                                flex-flow: wrap;
+                                margin-bottom: 50px;
+                                margin-right: -20px;
+                            }
+                            
+                            .mixitup-control-active {
+                                color: #00B2A0;
+                            }
+                            
+                            .gellery__img {
+                                padding-left: 40px;
+                                padding-top: 40px;
+                            }
+                            
+                            .sea {
+                                padding-left: 0;
+                            }
+                            
+                            .viev {
+                                font-size: 24px;
+                                line-height: 18px;
+                                position: absolute;
+                                left: 91px;
+                                top: 23px;
+                                letter-spacing: 0.6px;
+                                color: #242121;
+                            }
+                            
+                            .more {
+                                display: block;
+                                margin-left: auto;
+                                margin-right: auto;
+                                width: 350px;
+                                min-height: 70px;
+                                border: 1px solid #C4C4C4;
+                                box-sizing: border-box;
+                                position: relative;
+                                margin-bottom: 200px;
+                            }
+                            
+                            .blockquote {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 200px;
+                                background: #F8F8F8;
+                                font-size: 36px;
+                                line-height: 40px;
+                                text-align: center;
+                                position: relative;
+                            }
+                            
+                            .author {
+                                display: block;
+                                font-size: 14px;
+                                line-height: 18px;
+                                letter-spacing: 0.6px;
+                                position: absolute;
+                                min-width: 575px;
+                                min-height: 39px;
+                                bottom: 59px;
+                                right: 7%;
+                            }
+                            
+                            .gellery__video {
+                                background-image: url(../images/gellery/bgg.jpg);
+                                height: 600px;
+                                background-position: center center;
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 200px 0;
+                            }
+                            
+                            .gellery__numbers {
+                                display: flex;
+                                justify-content: space-around;
+                            }
+                            
+                            .gellery__numbers-item {
+                                text-align: center;
+                                font-weight: bold;
+                                font-size: 64px;
+                                line-height: 75px;
+                                letter-spacing: 0.6px;
+                                color: #01353E
+                            }
+                            
+                            .gellery__numbers span {
+                                display: block;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #242121;
+                            }
+                            
+                            .slider-blog {
+                                margin-bottom: 114px;
+                            }
+                            
+                            .title__slider {
+                                margin-bottom: 230px;
+                            }
+                            
+                            .slider__blog-inner {
+                                position: relative;
+                                min-height: 800px;
+                                background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8));
+                                background-image: url(../images/dark.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+                            
+                            .slider__blog-inner:before {
+                                content: '';
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                background-color: rgba(0, 0, 0, .5);
+                            }
+                            
+                            .slider__blog-input {
+                                padding: 314px 0 369px 600px;
+                            }
+                            
+                            .slider__blog-title {
+                                font-size: 48px;
+                                line-height: 56px;
+                                letter-spacing: 0.6px;
+                                color: #fff;
+                                max-width: 600px;
+                                display: inline-block;
+                            }
+                            
+                            .slider__blog-text {
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #FFFFFF;
+                            }
+                            
+                            .slick-dots {
+                                display: flex;
+                                position: absolute;
+                                align-items: center;
+                                justify-content: center;
+                                bottom: 77px;
+                                right: 0;
+                                left: 0;
+                            }
+                            
+                            .slick-dots button {
+                                width: 15px;
+                                height: 15px;
+                                background-color: #FFFFFF;
+                                border-radius: 50%;
+                                border: none;
+                                font-size: 0;
+                                padding: 0;
+                            }
+                            
+                            .slick-active button {
+                                background: #00B2A0;
+                            }
+                            
+                            .slick-dots li+li {
+                                margin-left: 15px;
+                            }
+                            
+                            .team {
+                                margin-bottom: 205px;
+                            }
+                            
+                            .team__title {
+                                margin-bottom: 212px;
+                            }
+                            
+                            .team__items {
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            
+                            .team__item {
+                                line-height: 18px;
+                                letter-spacing: 0.6px;
+                                color: #242121;
+                                text-align: center;
+                            }
+                            
+                            .team__name {
+                                font-size: 18px;
+                                font-weight: bold;
+                                padding: 25px 0 5px;
+                            }
+                            
+                            .team__position {
+                                font-size: 14px;
+                                font-weight: normal;
+                            }
+                            
+                            .price {
+                                padding: 200px 0 200px;
+                                background: #F8F8F8;
+                            }
+                            
+                            .title__price {
+                                margin-bottom: 185px;
+                            }
+                            
+                            .items__price {
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            
+                            ul.item__price {
+                                width: 360px;
+                                background: #fff;
+                                text-align: center;
+                                padding: 31px;
+                                position: relative;
+                            }
+                            
+                            .item__price li {
+                                font-size: 14px;
+                                line-height: 18px;
+                                letter-spacing: 0.6px;
+                                color: #01353E;
+                                padding-bottom: 20px;
+                                text-align: left;
+                            }
+                            
+                            .item__price .price__name {
+                                font-size: 36px;
+                                line-height: 40px;
+                                padding: 35px 0 58px;
+                                text-align: center;
+                            }
+                            
+                            .item__price .price__cost {
+                                font-size: 36px;
+                                line-height: 40px;
+                                color: #01353E;  
+                                
+                            }
+                            
+                            .item__price .price__one {
+                                position: sticky;
+                                text-align: center;
+                                top: 90%;
+                                margin-top: 40px;
+                            }
+                            
+                            .item__price .price__cost sup {
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #01353E;
+                                margin-left: 5px;
+                                bottom: 30px;
+                            }
+                            
+                            .map {
+                                padding: 200px 0 200px;
+                            }
+                            
+                            .map__item {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            .title__form {
+                                margin-bottom: 230px;
+                            }
+                            
+                            .item__form {
+                                min-width: 570px;
+                                padding-right: 30px;
+                            }
+                            
+                            .form {
+                                max-width: 570px;
+                            }
+                            
+                            .form input,
+                            .form textarea {
+                                border: none;
+                                border-bottom: 2px solid #DADADA;
+                                display: block;
+                                width: 100%;
+                                padding: 16px 0;
+                                margin-bottom: 16px;
+                                font-weight: bold;
+                            }
+                            
+                            .form input::placeholder,
+                            .form textarea::placeholder {
+                                font-size: 18px;
+                                letter-spacing: 0.6px;
+                                color: #00B2A0;
+                                font-weight: 300;
+                            }
+                            
+                            .form textarea {
+                                min-height: 156px;
+                                resize: none;
+                            }
+                            
+                            form .form textarea::placeholder {
+                                min-width: 260px;
+                                min-height: 54px;
+                            }
+                            
+                            .form button {
+                                font-size: 24px;
+                                line-height: 18px;
+                                color: #242121;
+                                padding: 25px 110px;
+                                border: none;
+                                border: 1px solid #C4C4C4;
+                                background: #FFFFFF;
+                                margin-bottom: 200px;
+                                margin-top: 60px;
+                                cursor: pointer;
+                            }
+                            
+                            .items__footer {
+                                display: flex;
+                            }
+                            
+                            .form__footer {
+                                min-width: 600px;
+                                max-height: 460px;
+                                background-color: #F8F8F8;
+                                font-size: 24px;
+                                line-height: 30px;
+                                margin-left: 30px;
+                            }
+                            
+                            .text__footer {
+                                padding: 50px 0px 15px 52px;
+                            }
+                            
+                            .adress {
+                                width: 327px;
+                                height: 90px;
+                            }
+                            
+                            .phone {
+                                color: #242121;
+                            }
+                            
+                            ul.footer__list {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 200px;
+                            }
+                            
+                            .footer__social-link {
+                                font-size: 24px;
+                                color: #242121;
+                                padding-right: 10px;
+                            }
+                            
+                            .footer__social-link:hover {
+                                color: #00B2A0;
+                            }
+                            
+                            .footer__end {
+                                height: 200px;
+                                background-color: #00B2A0;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            @media (max-width: 1250px) {
+                                .gellery__img {
+                                    padding-left: 0;
+                                    padding-right: 40px;
+                                }
+                                .gellery__images{
+                                    justify-content: center;
+                                    margin-right: 0px;
+                                }
+                                .menu__gellery{
+                            margin-right: 0px;
+                                }
+                                .more{
+                                  margin-bottom: 50px;
+                                }
+
+                                .form{
+                                    min-width: 100%;
+                                }
+                                .item__form{
+                                    min-width: 100%;
+                                }
+
+                                .items__footer{
+                                    display: block;
+                                }
+                                ul.footer__list{
+                                    margin: 75px 0;
+                                }
+                                .form__footer{
+                                    min-width: 100%;
+                                    max-height: 100%;
+                                    margin-left: 0;
+                                }
+                                .adress{
+                                    height: 100%;
+                                }
+                                .footer__list{
+                                    flex-wrap: wrap;
+                                }
+                                .footer__social-list{
+                                    margin-bottom: 20px;
+                                }
+                                
+                            }
+                            
+                            @media (max-width: 1200px) {
+                                .title,
+                                .slider__blog-title {
+                                    font-size: 35px;
+                                    line-height: 43px;
+                                }
+                                .text p {
+                                    min-height: 16vh;
+                                }
+                                .school {
+                                    padding-top: 100px;
+                                }
+                                .title_one {
+                                    padding-bottom: 80px;
+                                }
+                                .get__inner {
+                                    display: block;
+                                }
+                                .get__text {
+                                    margin-top: 40px;
+                                }
+                                .get__items {
+                                    display: block;
+                                }
+                                .br {
+                                    display: none;
+                                }
+                                .get__item {
+                                    width: 100%;
+                                }
+                                .get__item::before {
+                                    left: 0px;
+                                }
+                                .get__item-title {
+                                    text-align: left;
+                                    padding-left: 60px;
+                                }
+                                .get__item-text {
+                                    margin-bottom: 40px;
+                                }
+                                .school,
+                                .in__school,
+                                .sky__inner,
+                                .gellery,
+                                .price {
+                                    padding: 75px 0 100px;
+                                }
+                                .gellery__title {
+                                    margin-bottom: 106px;
+                                }
+                                .gellery__video{
+                                    margin: 75px 0;
+                                }
+                                .slider__blog-input {
+                                    padding: 310px 0 369px 0px;
+                               }
+                               .title__slider{
+                                   margin-bottom: 100px;
+                               }
+                               .slider-blog{
+                                   margin-bottom: 75px;
+                               }
+                               .team__items,
+                               .items__price{
+                                   column-gap: 20px;
+                               }
+                               .team{
+                                   margin-bottom: 75px;
+                               }
+                               .team__title,
+                               .title__price{
+                                   margin-bottom: 106px;
+                               }
+
+                            
+
+
+
+
+                               }
+                                @media (max-width: 1073px) {
+                                    .sky {
+                                        background-image: none;
+                                    }
+                                    .sky__inner {
+                                        padding: 100px 0 100px;
+                                    }
+                                    .title__sky {
+                                        max-width: 100%;
+                                        display: block;
+                                    }
+                                    .text__sky {
+                                        max-width: 100%;
+                                    }
+                                }
+                                @media (max-width: 973px) {
+                                    .text p {
+                                        min-height: 21vh;
+                                    }
+                                }
+                                @media (max-width: 786px) {
+                                    .menu__list {
+                                        transform: translateY(-200%);
+                                        position: absolute;
+                                        left: 0;
+                                        right: 0;
+                                        top: 0px;
+                                        display: block;
+                                        text-align: center;
+                                        background-color: rgb(0, 0, 0);
+                                        transition: all .5s;
+                                    }
+                                    .menu__list--active {
+                                        transform: translateY(-0%);
+                                    }
+                                    .menu__list-item+.menu__list-item {
+                                        margin-left: 0;
+                                    }
+                                    .logo__img {
+                                        position: relative;
+                                        z-index: 2;
+                                    }
+                                    .menu__btn {
+                                        display: block;
+                                        background-color: transparent;
+                                        border: none;
+                                        padding: 0;
+                                        margin-bottom: 20px;
+                                        position: relative;
+                                        z-index: 2;
+                                    }
+                                    .title__header {
+                                        font-size: 140px;
+                                        line-height: 130px;
+                                    }
+                                    .sub__title {
+                                        font-weight: normal;
+                                        font-size: 19px;
+                                        line-height: 22px;
+                                        margin-bottom: 265px;
+                                    }
+                                    .menu__list-link {
+                                        display: block;
+                                        padding: 15px 0;
+                                    }
+                                    ul.menu__list {
+                                        padding: 90px 0 15px;
+                                    }
+                                    .text {
+                                        display: block;
+                                        column-count: 1;
+                                    }
+                                    .text__one {
+                                        padding-right: 0px;
+                                    }
+                                    .text p {
+                                        min-height: 0;
+                                        margin-bottom: 40px;
+                                    }
+                                    .title,
+                                    .slider__blog-title {
+                                        font-size: 36px;
+                                        line-height: 42px;
+                                    }
+                                    .menu__gellery {
+                                        display: table-caption;
+                                    }
+                                    .button__gellery{
+                                        margin-bottom: 40px;
+                                    }
+                                    .gellery__img{
+                                        padding-top: 20px;
+                                    }
+                                    .blockquote{
+                                        padding: 0 10px;
+                                    }
+                                    .author{
+                                        display: contents;
+                                    }
+                                    .gellery__numbers{
+                                        flex-wrap: wrap;
+                                    }
+                                    .gellery__numbers-item{
+                                        width: 50%;
+                                        margin-bottom: 40px;
+                                    }
+                                    .items__price{
+                                        display: block;
+                                    }
+                                    ul.item__price{
+                                        margin: 0 auto 25px;
+                                        max-width: 500px;
+                                        width: 100%;
+                                    }
+                                    .form button{
+                                        font-size: 15px;
+                                    }
+                                }
+
+                                @media (max-width: 650px){
+                                    .gellery__images{
+                                        justify-content: flex-start;
+                                    }
+                                    .team__items{
+                                        display: block;
+                                    }
+                                    .team__item{
+                                        margin-bottom: 25px;
+                                    }
+                                    .team__item img{
+                                        margin: 0 auto
+                                    }
+                                    .map{
+                                        display: none;
+                                    }
+                                    .title__form{
+                                        margin: 75px 0;
+                                    }
+                                }
+
+                                @media (max-width: 460px) {
+                                    .title__header {
+                                        font-size: 90px;
+                                        line-height: 110px;
+                                    }
+                                    .sub__title {
+                                        font-weight: normal;
+                                        font-size: 13px;
+                                        line-height: 0px;
+                                        margin-bottom: 195px;
+                                    }
+                                    .title {
+                                        font-size: 21px;
+                                        line-height: 27px;
+                                    }
+                                    .text {
+                                        display: block;
+                                        column-count: 1;
+                                    }
+                                    .text__one {
+                                        padding-right: 0px;
+                                    }
+                                    .get__info {
+                                        width: 250px;
+                                    }
+                                    .get__info-item span {
+                                        font-size: 20px;
+                                    }
+                                    .gellery__numbers-item{
+                                        width: 100%;
+                                    }
+                                }    
+
+                                @media (max-width: 360px){
+                                .more{
+                                    width: auto;
+                                }
+                                .viev{
+                                    font-size: 20px;
+                                }
+                                .adress{
+                                    width: 319px;
+                                }
+                            }
+
+                                
+                            
+                                
+                                
